@@ -1,5 +1,8 @@
-# a=[1,3,5]
-# b=[1,2,6,1000]
-a="pyhton"
-b="pythoN"
-print(a<b)
+for i in range(1, 11):
+    print(f'{6} X {i} = {6*i}')
+    
+print()  # Move to the next line for the second table
+
+for i in range(1, 11):
+    print(f'{7} X {i} = {7*i}', end='\t')
+
